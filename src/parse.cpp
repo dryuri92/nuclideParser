@@ -1,7 +1,7 @@
 #include "nuclide_class.h"
 #include "../extern/pugiData/pugixml.h"
 namespace openbps {
-
+    // here should be global value
     std::string get_node_value(pugi::xml_node node, const char *name) {
         // Search for either an attribute or child tag and get the data as a char*.
         const pugi::char_t *value_char;
